@@ -1,0 +1,52 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+main{
+    padding: 20px;
+}
+
+section{
+    margin-bottom: 20px;
+}
+
+h2{
+    color: #333;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+@media (min-width: 768px){
+    body{
+        font-size: 18px;
+    }
+
+    header, footer{
+        padding: 20px;
+    }
+
+    main{
+        display: flex;
+        justify-content: space-between;
+        }
+
+        section{
+            flex-basis: calc(50% - 20px);
+        }
+    
+}
